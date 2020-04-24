@@ -16,7 +16,7 @@ Creating a form is easy:
       fields: [f1, f2]
     });
 
-You can call the constructor for Forms directly with $form:
+You can call the constructor for Forms directly with \$form:
 
     $form({
       ...
