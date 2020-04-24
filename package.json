@@ -1,0 +1,38 @@
+{
+  "name": "strophejs-plugin-dataforms",
+  "version": "0.0.1",
+  "description": "A plugin to provide Data Forms (XEP-0004)",
+  "main": "lib/strophe.x.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strophe/strophejs-plugin-dataforms"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "keywords": [
+    "xmpp",
+    "strophe",
+    "strophe.js",
+    "DataForms"
+  ],
+  "author": "The strophe plugin developers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strophe/strophejs-plugin-dataforms/issues"
+  },
+  "homepage": "https://github.com/strophe/strophejs-plugin-dataforms#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.3.35",
+    "@types/strophe.js": "^1.2.1",
+    "strophe.js": "^1.3.4",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "strophe.js": ">=1.2"
+  }
+}
